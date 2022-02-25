@@ -1,0 +1,81 @@
+
+body {
+    background-color: #046c54;
+}
+
+.skills {
+    color: white;
+    font-size: 30px;
+
+}
+.styleh1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Shizuru', cursive; 
+    text-align: center;
+    font-weight: 600;
+
+    
+    
+}
+
+.stylep1 {
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+    text-align: center;
+    
+  
+}
+
+.linkedin{
+    color: white;
+    font-size: 40px;
+    text-align: right;
+}
+
+.fotociro {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.div1 {
+
+    background-image: url("imagens/trybe.png");
+    background-size: 50%;
+}
+
+.h21 {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.ol1 {
+    color: white;
+    font-size: 20px;
+}
+
+.h22 {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.ul1 {
+    color: white;
+    font-size: 20px;
+}
+
+.backtome {
+    color: white;
+    font-size: 40px;
+}
+
+
+
+    
