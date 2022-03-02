@@ -1,81 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-body {
-    background-color: #046c54;
+.header {
+  box-shadow: 30px 30px 30px rgb(12, 78, 46);
+  text-align: center;
+  border: 5px solid black;
+  background-color: #046c54;
+  padding: 20px;
+}
+
+.styleheader {
+  width: 300px;
 }
 
 .skills {
-    color: white;
-    font-size: 30px;
-
-}
-.styleh1 {
-    font-size: 60px;
-    color: white;
-    font-family: 'Shizuru', cursive; 
-    text-align: center;
-    font-weight: 600;
-
-    
-    
+  text-align: center;
+  padding-top: 70px;
+  font-size: 30px;
 }
 
-.stylep1 {
-    font-size: 25px;
-    text-align: justify;
-    color: white;
-    text-align: center;
-    
+.button {
+  box-shadow: 20px 20px 20px rgb(12, 78, 46);
+  border: solid 5px black;
+  background-color: #046c54;
+  color: white;
+  margin: 50px;
+  padding: 10px 20px 15px 20px;
+}
+
+#fotociro {
+  border: 5px solid black;
+  border-radius: 50%;
+  float: left;
+  height: 370px;
+  margin-left: 50px;
+}
+
+.image-container {
+  box-shadow: 30px 30px 30px rgb(12, 78, 46);
+  border: 5px solid black;
+  position: relative;
+  height: 380px;
+  padding: 10px;
+  background-color: #046c54;
+  margin: 50px;
+}
+
+.meunome {
+  box-shadow: 30px 30px 30px rgb(12, 78, 46);
+  font-family: "Shizuru", cursive;
+  border: 5px solid black;
+  font-size: 100px;
+  color: white;
+  background-color: #046c54;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+}
+
+.descricao {
+  font-family: "Shizuru", cursive;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  max-width: 30%;
+  top: 19%;
+  left: 500px;
+}
+
+.container-lista-skills {
+  position: relative;
+  list-style-position: inside;
+  text-align: center;
+  color: white;
+  box-shadow: 30px 30px 30px rgb(12, 78, 46);
+  padding: 50px;
+  background-color: #046c54;
+  font-size: 30px;
+  margin: 50px;
+  border: 5px solid black;
+}
+
+li {
+  margin: 15px;
+}
+
+
+.titulo-skills:hover {
+  border: solid black;
+  padding: 1px 1px 1px 1px;
+  background-size: 10px 10px;
+  background-color: white;
+  color: #046c54;
+  transition: 2s;
+}
+
+ul li:hover {
+  border: solid black;
+  padding: 1px 1px 1px 1px;
+  background-size: 10px 10px;
+  background-color: white;
+  color: #046c54;
+  transition: 2s;
+}
+
+ol li:hover {
+  border: solid black;
+  padding: 1px 1px 1px 1px;
+  background-size: 10px 10px;
+  background-color: white;
+  color: #046c54;
+  transition: 1s;
+}
+
+.redes-sociais {
+  width: 100px;
+  margin: 50px;
+}
+
+.container-redes-sociais{
+  position: absolute;
+  top: 1px;
   
+
 }
-
-.linkedin{
-    color: white;
-    font-size: 40px;
-    text-align: right;
-}
-
-.fotociro {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.div1 {
-
-    background-image: url("imagens/trybe.png");
-    background-size: 50%;
-}
-
-.h21 {
-    color: white;
-    font-size: 30px;
-    text-decoration: underline;
-    font-style: italic;
-}
-
-.ol1 {
-    color: white;
-    font-size: 20px;
-}
-
-.h22 {
-    color: white;
-    font-size: 30px;
-    text-decoration: underline;
-    font-style: italic;
-}
-
-.ul1 {
-    color: white;
-    font-size: 20px;
-}
-
-.backtome {
-    color: white;
-    font-size: 40px;
-}
-
-
-
-    
